@@ -2,7 +2,7 @@ from django.http import JsonResponse
 
 from django.contrib.auth import authenticate, login, logout
 
-# login processing
+#  login processing
 def signin( request):
 
     userName = request.POST.get('username')
